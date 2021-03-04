@@ -10,11 +10,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
   }
-  
-  .transparent{
-    padding-bottom: 3rem;
-  }
-
   ol, ul {
     list-style: none;
     margin: 0px;
@@ -574,7 +569,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
   
     .main-layouts {
-      padding: 2em 0 1em;
+      padding: 2em 0 15em;
     }
   }
   
