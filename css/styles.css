@@ -137,4 +137,8 @@ p{
     position: static;
     transform: rotate(0);
   }
+  .nav-link{
+  font-size : 3.5rem;
+  line-height: 1.5;
+  }
 }
