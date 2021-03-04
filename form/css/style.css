@@ -569,7 +569,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
   
     .main-layouts {
-      padding: 2em 0 15em;
+      padding: 2em 0 3em;
     }
   }
   
@@ -751,5 +751,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   
     .main-layouts {
       padding: 1em 0 0;
+    }
+  }
+  @media(max-width:1440)
+  {
+    .main-layouts {
+    padding-bottom: 14rem;
     }
   }
