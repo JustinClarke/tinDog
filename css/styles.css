@@ -144,7 +144,10 @@ p{
 .big-heading{
   font-family: "Montserrat";
   font-weight: bold;
-  font-size : 3.5rem;
+  font-size : 4rem;
   line-height: 1.5;
-}
+  }
+  .navbar-brand{
+  font-size : 6rem;
+  }
 }
