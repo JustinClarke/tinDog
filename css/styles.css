@@ -1,153 +1,183 @@
-body{
-  font-family: "Montserrat";
-  text-align: center;
+body {
+    font-family: "Montserrat";
+    text-align: center;
 }
-h1, h2, h3{
-  font-family: "Montserrat";
+
+h1,
+h2,
+h3 {
+    font-family: "Montserrat";
 }
-p{
-  color: #8f8f8f;
+
+p {
+    color: #8f8f8f;
 }
-.big-heading{
+
+.big-heading {
     font-family: "Montserrat";
     font-weight: bold;
-    font-size : 3.5rem;
-    line-height: 1.5;
+    font-size: 3.5rem;
+    line-height: 1.6;
     text-align: left;
 }
-.section-heading{
-  font-weight: bold;
-  font-size : 3.5rem;
-  line-height: 1.5;
+
+.section-heading {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
-.container-fluid{
-  padding: 7% 15%;
+
+.container-fluid {
+    padding: 7% 15%;
 }
-.colored-section{
-  background-color: #ff4c68;
-  color: #fff;
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
 }
-.white-section{
-  background-color: #fff;
+
+.white-section {
+    background-color: #fff;
 }
+
 
 /* Navigation Bar */
 
-.navbar{
-  padding: 0 0 4.5rem;
+.navbar {
+    padding: 0 0 4.5rem;
 }
-.navbar-brand{
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
 }
-.nav-item{
-  padding: 0 18px;
+
+.nav-item {
+    padding: 0 18px;
 }
-.nav-link{
-  font-size: 1.2rem;
-  font-family: "Montserrat"
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat"
 }
+
+
 /* Download-buttons */
-.download-button{
-  margin: 5% 3% 5% 0
+
+.download-button {
+    margin: 5% 3% 5% 0
 }
+
 
 /* Title section */
 
-#title .container-fluid{
-  padding: 3% 7%;
+#title .container-fluid {
+    padding: 3% 7%;
 }
+
 
 /* Title Image */
 
-.title-image{
-  transform: rotate(25deg);
-  right: 30%;
-  width: 50%;
-  position: absolute;
+.title-image {
+    transform: rotate(25deg);
+    right: 30%;
+    width: 50%;
+    position: absolute;
 }
+
 
 /* Feature section */
 
-#features{
-  position: relative;
+#features {
+    position: relative;
 }
-.feature-box{
-  padding: 5%;
+
+.feature-box {
+    padding: 5%;
 }
-.icon{
-  margin-bottom: 1rem;
+
+.icon {
+    margin-bottom: 1rem;
     color: #ef8172;
 }
-.icon:hover{
-  color: #ff4c68;
+
+.icon:hover {
+    color: #ff4c68;
 }
 
 
 /* Testimonial section */
 
-#testimonials{
-  background-color: #ef8172;
+#testimonials {
+    background-color: #ef8172;
 }
-.testimonial-image{
-  width: 10%;
-  border-radius: 100%;
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
 }
-.testimonial-text{
-  font-weight: bold;
-  font-size : 3.5rem;
-  line-height: 1;
-  padding-bottom: 5%;
+
+.testimonial-text {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1;
+    padding-bottom: 5%;
 }
-#press{
+
+#press {
     padding-bottom: 3%;
     background-color: #ef8172;
 }
-.press-logo{
-  width: 15%;
-  margin: 20px 20px 50px;
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
+
 
 /* Pricing Selector */
 
-#pricing{
-  padding: 100px;
-}
-.pricing-column{
-  padding: 3% 2%;
+#pricing {
+    padding: 100px;
 }
 
-.price-text{
-  font-weight: bold;
-  font-size : 3.5rem;
-  line-height: 1.5;
+.pricing-column {
+    padding: 3% 2%;
 }
+
+.price-text {
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
 
 /* footer */
 
-.social{
-  margin: 20px 10px;
+.social {
+    margin: 20px 12px;
 }
-@media(max-width:1028px){
-#title{
-  text-align: center;
-}
-  .title-image{
-    position: static;
-    transform: rotate(0);
-  }
-  .nav-link{
-  font-size : 3.5rem;
-  line-height: 1.5;
-  }
-.big-heading{
-  font-family: "Montserrat";
-  font-weight: bold;
-  font-size : 4rem;
-  line-height: 1.5;
-  }
-  .navbar-brand{
-  font-size : 6rem;
-  }
+
+@media(max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+    .nav-link {
+        font-size: 3.5rem;
+        line-height: 1.5;
+    }
+    .big-heading {
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 4rem;
+        line-height: 1.5;
+    }
+    .navbar-brand {
+        font-size: 6rem;
+    }
 }
